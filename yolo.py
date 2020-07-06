@@ -16,7 +16,7 @@ from utils.utils import non_max_suppression, bbox_iou, DecodeBox,letterbox_image
 class YOLO(object):
     _defaults = {
         # "model_path": 'model_data/yolo4_weights.pth',
-        "model_path": 'logs/25.pth',
+        "model_path": 'logs/50.pth',
         "anchors_path": 'model_data/yolo_anchors.txt',
         # "classes_path": 'model_data/coco_classes.txt',
         "classes_path": 'model_data/voc_classes.txt',
